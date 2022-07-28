@@ -13,7 +13,7 @@ public class TestBase {
 	protected static ChromeDriver driver;
 	protected static Properties prop;
 	
-	public TestBase(){
+	public TestBase(){ 
 	}
 
 	public static void initializeDriver() {
